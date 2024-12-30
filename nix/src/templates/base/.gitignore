@@ -1,0 +1,26 @@
+# SPDX-FileCopyrightText: 2025 Carson Henrich <carson03henrich@gmail.com>
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+.std
+
+# prj-spec dirs
+# <https://github.com/numtide/prj-spec>
+.bin
+.cache
+.config
+.data
+.run
+
+# nixago: ignore-linked-files
+/typos.toml
+/lefthook.yml
+/cog.toml
+/.conform.yaml
+/treefmt.toml
+lefthook.yml
+.conform.yaml
+treefmt.toml
+
+# nixago-auto-created: mdbook-build-folder
+docs/build

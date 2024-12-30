@@ -1,0 +1,12 @@
+[book]
+language = "en"
+multilingual = false
+src = "src"
+title = "CONFIGURE-ME"
+
+[build]
+build-dir = "build"
+
+[preprocessor.paisano-preprocessor]
+before = ["links"]
+registry = ".#__std.init"
